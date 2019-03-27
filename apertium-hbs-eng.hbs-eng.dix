@@ -2,12 +2,16 @@
 <dictionary>
    <alphabet/>
    <sdefs>
-     <sdef n="n"/>
-     <sdef n="sg"/>
-     <sdef n="pl"/>
+	<sdef n="n"/>
+	<sdef n="sg"/>
+	<sdef n="pl"/>
+	<sdef n="vblex"/>
+	<sdef n="p1"/>
+	<sdef n="pri"/>
    </sdefs>
-<e><p><l>gramofon<s n="n"/></l><r>gramophone<s n="n"/></r></p></e>
-   <section id="main" type="standard">
 
+   <section id="main" type="standard">
+<e><p><l>gramofon<s n="n"/></l><r>gramophone<s n="n"/></r></p></e>
+<e><p><l>videti<s n="vblex"/></l><r>see<s n="vblex"/></r></p></e>
    </section>
 </dictionary>
