@@ -19,10 +19,12 @@
 <e><p><l>im</l><r>eti<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
 <e><p><l>imo</l><r>eti<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
 </pardef>
+
 </pardefs>
 <section id="main" type="standard">
 <e lm="videti"><i>vid</i><par n="vid/eti__vblex"/></e>
 <e lm="gramofon"><i>gramofon</i><par n="gramofon__n"/></e>
+
 </section>
 </dictionary>
 

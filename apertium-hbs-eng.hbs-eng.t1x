@@ -8,6 +8,9 @@
 	<def-cat n="vrb">
 		<cat-item tags="vblex.*"/>
 	</def-cat>
+<def-cat n="prpers">
+   <cat-item lemma="prpers" tags="prn.*"/>
+</def-cat>
 </section-def-cats>
 
 <section-def-attrs>
@@ -26,6 +29,10 @@
 </def-attr>
 <def-attr n="a_verb">
    <attr-item tags="vblex"/>
+</def-attr>
+<def-attr n="tipus_prn">
+   <attr-item tags="prn.subj"/>
+   <attr-item tags="prn.obj"/>
 </def-attr>
 </section-def-attrs>
 
@@ -50,12 +57,21 @@
    </action>
 
 </rule>
+
 <rule>
    <pattern>
      <pattern-item n="vrb"/>
    </pattern>
    <action>
      <out>
+       <lu>
+         <lit v="prpers"/>
+         <lit-tag v="prn"/>
+         <lit-tag v="subj"/>
+         <clip pos="1" side="tl" part="pers"/>
+         <clip pos="1" side="tl" part="nbr"/>
+       </lu>
+       <b/>
        <lu>
          <clip pos="1" side="tl" part="lem"/>
          <clip pos="1" side="tl" part="a_verb"/>
